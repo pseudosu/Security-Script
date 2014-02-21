@@ -15,7 +15,7 @@ nano /etc/group
 echo "Check users file for invalid users."
 nano /etc/passwd
 
-echo "Check the apache directory for backdoors. Open EVERY file if appicable. Look for anything that's suspicious."
+echo "Check the apache directory for backdoors. Open EVERY file if applicable. Look for anything that's suspicious."
 nautilus /var/www
 
 echo "Disabling guest login."
